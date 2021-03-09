@@ -11,3 +11,9 @@
 
 file = open('test.txt')
 word_count = {}
+
+# def split_lines(file):
+# loop through each line in file
+for line in file:
+  # split each line at '' and save lists to variable words
+  words = line.rsplit()
